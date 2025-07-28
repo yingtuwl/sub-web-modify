@@ -4,14 +4,14 @@
       <el-col>
         <el-card>
           <div slot="header">
-            <svg-icon class="gayhub" icon-class="github" style="float:left" @click="goToProject"/>
+<!--            <svg-icon class="gayhub" icon-class="github" style="float:left" @click="goToProject"/>
             <svg-icon class="dianbao" icon-class="telegram" style="float:left;margin-left: 10px"
                       @click="gotoTgChannel"/>
             <svg-icon class="bilibili" icon-class="bilibili" style="float:right;margin-left:10px"
                       @click="gotoBiliBili"/>
             <svg-icon class="youguan" icon-class="youtube" style="float:right;margin-left:10px" @click="gotoYouTuBe"/>
             <svg-icon class="channel" icon-class="telegram" style="float:right;margin-left: 10px"
-                      @click="gotoTgChannel"/>
+                      @click="gotoTgChannel"/> -->
             <div style="text-align:center;font-size:15px">订 阅 转 换</div>
           </div>
           <el-container>
@@ -277,7 +277,7 @@
             style="width: 200px;"
             type="primary"
             icon="el-icon-video-play"
-            @click="gotoBasicVideo();centerDialogVisible = false"
+	        @click="gotoBasicVideo();centerDialogVisible = false"
         >基础视频教程
         </el-button>
       </div>
@@ -286,7 +286,7 @@
             style="width: 200px;"
             type="danger"
             icon="el-icon-video-play"
-            @click="gotoAdvancedVideo();centerDialogVisible = false"
+			@click="gotoAdvancedVideo();centerDialogVisible = false"
         >进阶视频教程
         </el-button>
       </div>
@@ -295,7 +295,7 @@
             style="width: 200px;"
             type="warning"
             icon="el-icon-download"
-            @click="toolsDown"
+			@click="toolsDown"
         >代理工具集合
         </el-button>
       </div>
@@ -1010,7 +1010,7 @@ export default {
       }
     },
     tanchuang() {
-      this.$alert(`<div style="text-align:center;font-size:15px"><strong><span style="font-size:20px;color:red">apiurl.v1.mk已被蔷，请更换最新的url.v1.mk</span></strong></br><strong><span style="font-size:20px">本站官方TG交流群：</span><span><a href="https://t.me/feiyangdigital" target="_blank" style="color:red;font-size:20px;text-decoration:none">点击加入</a></span></strong></br><strong><span style="font-size:20px">IEPL高端机场（<span style="color:blue">原生支持奈飞非自制剧、Disney Plus、HBO等各种流媒体，支持Chat-GPT和ISP住宅IP助力Tiktok等跨境贸易使用</span>）：</span><span><a href="https://www.mcwy.org" style="color:red;font-size:20px;text-decoration:none">点击注册</a></span></strong></br><strong><span style="font-size:20px">奈飞、ChatGPT合租（<span style="color:blue">优惠码：feiyang</span>）：</span><span><a href="https://hezu.v1.mk/" style="color:red;font-size:20px;text-decoration:none">点击上车</a></span></strong></br><strong><span style="font-size:20px">115蓝光4K原盘内部资源群：</span><span><a href="https://readme.115vip.shop/" target="_blank" style="color:red;font-size:20px;text-decoration:none">点击查看</a></span></strong></br>本站服务器赞助机场-牧场物语，是一家拥有BGP中继+IEPL企业级内网专线的高端机场，适合各个价位要求的用户，牧场物语采用最新的奈飞非自制剧解决方案，出口随机更换IP，确保尽可能的每个用户可以用上独立IP，以此来稳定解决奈飞非自制剧的封锁，并推出7*24小时奈飞非自制剧节点自动检测系统，用户再也不用自己手动一个个的乱试节点了，目前牧场的新加坡，台湾等节区域点均可做到24H稳定非自制剧观看，支持Chat-GPT和ISP住宅IP助力Tiktok等跨境贸易使用！</br></div>`, '信息面板', {
+      this.$alert(`<div style="text-align:center;font-size:15px"><strong><span style="font-size:20px">本站官方博客：</span><span><a href="https://blog.1881999.xyz" target="_blank" style="color:red;font-size:20px;text-decoration:none">点击查看</a></span></strong></br></div>`, '信息面板', {
         confirmButtonText: '确定',
         dangerouslyUseHTMLString: true,
         customClass: 'msgbox'
@@ -1035,7 +1035,7 @@ export default {
       window.open(downld);
     },
     gotoBasicVideo() {
-      this.$alert("别忘了关注友善的肥羊哦！", {
+      this.$alert("别忘了关注哦！", {
         type: "warning",
         confirmButtonText: '确定',
         customClass: 'msgbox',
@@ -1046,7 +1046,7 @@ export default {
           });
     },
     gotoAdvancedVideo() {
-      this.$alert("别忘了关注友善的肥羊哦！", {
+      this.$alert("别忘了关注哦！", {
         type: "warning",
         confirmButtonText: '确定',
         customClass: 'msgbox',
