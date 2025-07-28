@@ -474,6 +474,7 @@ export default {
           "sub.cm": "https://sub.cm/short",
         },
         customBackend: {
+		  "影途增强型后端": "https://suburl-api.1881999.xyz",
 		  "CM负载均衡后端【vless reality+hy1+hy2】": "https://subapi.cmliussss.net",
 		  "CM备用后端【vless reality+hy1+hy2】": "https://subapi.fxxk.dedyn.io",
           "肥羊增强型后端【vless reality+hy1+hy2】": "https://url.v1.mk",
@@ -484,6 +485,7 @@ export default {
           "sub作者&lhie1提供": "https://api.dler.io",
         },
         backendOptions: [
+		  {value: "https://suburl-api.1881999.xyz"},
           {value: "https://subapi.cmliussss.net"},
           {value: "https://subapi.fxxk.dedyn.io"},
           {value: "https://url.v1.mk"},
