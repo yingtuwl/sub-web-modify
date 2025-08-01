@@ -926,8 +926,8 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-		//修改选中默认值
-        customBackend: this.getUrlParam() == "" ? "https://subapi.cmliussss.net" : this.getUrlParam(),
+	//修改选中默认值
+        customBackend: this.getUrlParam() == "" ? "https://suburl-api.1881999.xyz" : this.getUrlParam(),
         shortType: "https://v1.mk/short",
         remoteConfig: "https://raw.githubusercontent.com/cmliu/ACL4SSR/refs/heads/main/Clash/config/ACL4SSR_Online.ini",
         excludeRemarks: "",
