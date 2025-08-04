@@ -474,7 +474,7 @@ export default {
           "sub.cm": "https://sub.cm/short",
         },
         customBackend: {
-	  "影途增强型后端": "https://suburl-api.1881999.xyz",
+	  "影途增强型后端": "https://suburl-api.1881999.xyz/version",
 	  "CM负载均衡后端【vless reality+hy1+hy2】": "https://subapi.cmliussss.net",
 	  "CM备用后端【vless reality+hy1+hy2】": "https://subapi.fxxk.dedyn.io",
           "肥羊增强型后端【vless reality+hy1+hy2】": "https://url.v1.mk",
@@ -485,7 +485,7 @@ export default {
           "sub作者&lhie1提供": "https://api.dler.io",
         },
         backendOptions: [
-	  {value: "https://suburl-api.1881999.xyz"},
+	  {value: "https://suburl-api.1881999.xyz/version"},
           {value: "https://subapi.cmliussss.net"},
           {value: "https://subapi.fxxk.dedyn.io"},
           {value: "https://url.v1.mk"},
@@ -927,7 +927,7 @@ export default {
         sourceSubUrl: "",
         clientType: "",
 	//修改选中默认值
-        customBackend: this.getUrlParam() == "" ? "https://suburl-api.1881999.xyz" : this.getUrlParam(),
+        customBackend: this.getUrlParam() == "" ? "https://subapi.cmliussss.net" : this.getUrlParam(),
         shortType: "https://v1.mk/short",
         remoteConfig: "https://raw.githubusercontent.com/cmliu/ACL4SSR/refs/heads/main/Clash/config/ACL4SSR_Online.ini",
         excludeRemarks: "",
@@ -1451,3 +1451,4 @@ export default {
   }
 };
 </script>
+
